@@ -11,10 +11,6 @@ body {
 	font-size: 18px;
 }
 
-h1 h2 h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
 h1 {
 	text-align: center;
 }
@@ -30,9 +26,8 @@ h3 {
 
 header {
 	box-sizing: border-box;
-	background-color: #ffffff;
-	border-bottom: 1px solid #cccccc
-	color: #777777;
+	background-color: #777;
+	color: #ebebeb;
 	width: 960px;
 	margin: 10px auto;
 	padding: 20px;
@@ -40,8 +35,8 @@ header {
 
 nav {
 	box-sizing: border-box;
-	background-color: #4aaaa5;
-	color: #777777;
+	background-color: #777;
+	color: #ebebeb;
 	width: 960px;
 	margin: 10px auto;
 	padding: 20px;
@@ -59,7 +54,7 @@ nav {
 
 footer {
 	box-sizing: border-box;
-	background-color: #666666;
+	background-color: #777;
 	color: #ebebeb;
 	width: 960px;
 	margin: 10px auto;
@@ -69,9 +64,8 @@ footer {
 
 section {
 	box-sizing: border-box;
-	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	color: #777777;
+	background-color: #777;
+	color: #ebebeb;
 	width: 650px;
 	/*margin: 10px auto;*/
 	padding: 20px;
@@ -80,9 +74,8 @@ section {
 
 aside {
 	box-sizing: border-box;
-	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	color: #777777;
+	background-color: #777;
+	color: #ebebeb;
 	width: 270px;
 	/*margin: 10px auto;*/
 	padding: 20px;
@@ -91,7 +84,7 @@ aside {
 
 
 a {
-	color: #777777;
+	color: #ebebeb;
 	/*text-decoration: none;*/
 }
 
@@ -107,10 +100,6 @@ img {
 	width: 200px;
 	padding: 10px;
 	float: left;
-}
-
-p {
-	color: #777777;
 }
 
 p::first-letter {
