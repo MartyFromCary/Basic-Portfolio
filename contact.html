@@ -1,42 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-	<title></title>
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Contact | Elias Martinez</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>Elias (Marty) Martinez</h1>
-	</header>
 
-	<nav>
-		<a href="index.html">About</a>&nbsp;&vert;
-		<a href="portfolio.html">Portfolio</a>&nbsp&vert;
-		<a href="contact.html">Contact</a>
-	</nav>
+    <header>
+        <div class="container">
+            <div id="logo" class="left">Elias (Marty) Martinez</div>
+            <nav class="right">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-	<div class="section_aside">
-		<section>
-			<article>
-				<h2>Contact</h2>
-			</article>
-		</section>
-		<aside>
-			<h2>Connect</h2>
-			<img src="https://icons.better-idea.org/icon?url=facebook.com&size=32..50..120">
-			<img src="https://icons.better-idea.org/icon?url=linkedin.com&size=32..50..120">
-			<img src="https://icons.better-idea.org/icon?url=github.com&size=32..50..120">
-			<img src="https://icons.better-idea.org/icon?url=codepen.io&size=32..50..120">
-			<img src="https://icons.better-idea.org/icon?url=freecodecamp.org&size=32..50..120">
-		</aside>
-		<div class="clear"></div>
-	</div>
+    <div id="main-container" class="container">
 
-	<footer>
-		<p>Copyright &copy; 2017 Elias Martinez</p>
-	</footer>
+        <section class="main-section left">
+            <h1>Contact</h1>
+
+            <form>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Elias Martinez" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="MartyFromCary@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+        </section>
+
+        <aside class="right">
+            <h2>Connect with Me</h2>
+            <a href="#"><img src="assets/images/facebook.png" class="social">
+            </a>
+            <a href="#"><img src="assets/images/linkedin-128.png" class="social">
+            </a>
+            <a href="#"><img src="assets/images/github-128.png" class="social">
+            </a>
+            <a href="#"><img src="assets/images/codepen.png" class="social">
+            </a>
+            <a href="#"><img src="assets/images/freecodecamp.png" class="social">
+            </a>
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy; 2017 Elias Martinez
+        </div>
+    </footer>
+
 </body>
+
 </html>
